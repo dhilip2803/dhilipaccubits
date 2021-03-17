@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="Logincls">
+    <p *ngIf="!isloginclocked"> Login Page</p>
+  </div>
+  <div *ngIf="!isloginclocked">
+    <app-login></app-login>
+  </div>
+  <div *ngIf="isloginclocked">
+    <app-home></app-home>
+  </div>
+</div>
+

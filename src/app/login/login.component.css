@@ -1,0 +1,10 @@
+.bdborder{
+    border: 2px solid grey;
+    display: block;
+    font-size: 11px;
+}
+
+.lblname{
+    font-size: 14px;
+    font-weight: bold;
+}
